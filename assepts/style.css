@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  max-width: 850px;
+  margin: auto;
+}
+section.backImg {
+  background-image: url(/img/PM-Holiday-Image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.logotip {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 187px;
+}
+.logotip img {
+  width: 338px;
+  padding-top: 108px;
+  padding-bottom: 20px;
+  display: flex;
+  margin: auto;
+}
+.logotip h1 {
+  font-family: sans-serif;
+  font-size: 54px;
+  color: #be0f34;
+  background-color: rgba(249, 245, 241, 0.85);
+  text-align: center;
+  max-width: 660px;
+  border-radius: 10px;
+  padding: 50px 85px;
+}
+
+.recipe {
+  font-family: sans-serif;
+}
+.recipe .recip_title {
+  font-size: 21.6px;
+  line-height: 28.8px;
+  font-weight: 500;
+  color: #000000;
+  padding: 50px 0;
+  width: 633px;
+  text-align: center;
+  margin: auto;
+}
+
+.twoBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.sweet {
+  margin-right: 50px;
+  max-width: 338px;
+}
+.sweet img {
+  width: 338px;
+}
+
+.sweet_title {
+  background-color: #be0f34;
+}
+.sweet_title h2 {
+  font-family: sans-serif;
+  font-size: 21.6px;
+  padding: 17px 0;
+  text-align: center;
+  color: #ffffff;
+}
+.sweet_title p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 25.2px;
+  padding-bottom: 17px;
+  width: 256px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.gifts {
+  max-width: 338px;
+}
+.gifts img {
+  width: 338px;
+}
+
+.gifts_title {
+  background-color: #be0f34;
+}
+.gifts_title h2 {
+  font-family: sans-serif;
+  font-size: 21.6px;
+  padding: 17px 0;
+  text-align: center;
+  color: #ffffff;
+}
+.gifts_title p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 25.2px;
+  padding-bottom: 17px;
+  width: 256px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.social { background-color: #be0f34;
+padding: 20px;
+max-width: 850px;
+margin: auto;}
+
+h3 {padding-bottom: 19px;
+text-align: center;
+color: #ffffff;
+font-family: sans-serif;
+font-size: 14.4px;
+line-height: 25.5px;}
+
+a {
+padding-right: 16px;}
+
+.link-social {
+display: flex;
+justify-content: center;}
+
+.link-social img {height: 46px;
+width: 46px;}
+
+.underFoot {background-color: #ffffff;
+max-width: 850px;
+margin: auto;
+padding: 21px 0;}
+
+.underFoot p { font-family: sans-serif;
+font-size: 9.36px;
+text-align: center;}

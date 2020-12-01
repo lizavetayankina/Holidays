@@ -1,0 +1,89 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+$text: sans-serif;
+$color: #be0f34;
+$textColor: #ffffff;
+
+section {max-width: 850px;
+margin: auto;
+
+
+&.backImg {background-image: url(/img/PM-Holiday-Image1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;}}
+
+.logotip {text-align: center;
+margin: auto;
+padding-bottom: 187px;
+
+& img {width: 338px;
+padding-top: 108px;
+padding-bottom: 20px;
+display: flex;
+margin: auto;}
+
+& h1 {font-family: $text;
+font-size: 54px;
+color:$color;
+background-color: rgba($color: #f9f5f1, $alpha: 0.85);
+text-align: center;
+max-width: 660px;
+border-radius: 10px;
+padding: 50px 85px;}}
+
+
+.recipe { font-family: $text;
+
+.recip_title { font-size: 21.6px;
+padding: 50px 0;
+width: 633px;
+text-align: center;
+margin:auto}}
+
+.twoBlock{ display: flex;
+justify-content: center;}
+
+.sweet{
+margin-right: 50px;
+max-width: 338px;
+& img {width: 338px;}}
+
+.sweet_title{ background-color: $color;
+
+ h2 { font-family: $text;
+font-size: 21.6px;
+padding: 17px 0;
+text-align: center;
+color: $textColor;}
+
+& p {text-align: center;
+font-size: 18px;
+line-height: 25.2px;
+padding-bottom: 17px;
+width: 256px;
+margin: auto;
+color: $textColor;}}
+
+
+.gifts{ max-width: 338px;
+& img {width: 338px;}}
+
+.gifts_title{ background-color: $color;
+
+h2 { font-family: $text;
+   font-size: 21.6px;
+   padding: 17px 0;
+   text-align: center;
+   color: $textColor;}
+   
+   & p {text-align: center;
+   font-size: 18px;
+   line-height: 25.2px;
+   padding-bottom: 17px;
+   width: 256px;
+   margin: auto;
+   color: $textColor;}}
+ 
