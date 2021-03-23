@@ -131,13 +131,13 @@ section.backImg {
 .button {
   margin: auto;
   margin-top: 17px;
-  width: 172px;
+  width: 173px;
   border: 6px solid #be0f34;
   border-radius: 17px;
   text-align: center;
-  padding: 12px 20px;
   color: #be0f34;
-  font-size: 25px;
+  font: 25px sans-serif;
+  padding: 13px;
 }
 
 footer {
@@ -146,8 +146,11 @@ footer {
 }
 
 .social {
+  width: 850px;
   margin: auto;
   background-color: #be0f34;
+  color: #ffffff;
+  font: 20px sans-serif;
 }
 
 .social h3 {
@@ -163,12 +166,22 @@ footer {
 }
 
 .underFoot {
+  width: 850px;
   margin: auto;
-  text-align: center;
+  margin-bottom: 27px;
 }
 
 .underFoot p {
   padding: 20px 0;
-  width: 344px;
+  width: 374px;
+  margin: auto;
+  font: 13px sans-serif;
+  color: #000;
+}
+
+.underFoot span {
+  font: 15px sans-serif;
+  text-decoration: underline;
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
