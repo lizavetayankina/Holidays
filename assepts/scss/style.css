@@ -1,17 +1,21 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 section {
   max-width: 850px;
   margin: auto;
 }
+
 section.backImg {
-  background-image: url(/img/PM-Holiday-Image1.jpg);
+  background-image: url("/assepts/img/PM-Holiday-Image1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -20,13 +24,17 @@ section.backImg {
   margin: auto;
   padding-bottom: 187px;
 }
+
 .logotip img {
   width: 338px;
   padding-top: 108px;
   padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: auto;
 }
+
 .logotip h1 {
   font-family: sans-serif;
   font-size: 54px;
@@ -41,11 +49,9 @@ section.backImg {
 .recipe {
   font-family: sans-serif;
 }
+
 .recipe .recip_title {
   font-size: 21.6px;
-  line-height: 28.8px;
-  font-weight: 500;
-  color: #000000;
   padding: 50px 0;
   width: 633px;
   text-align: center;
@@ -53,14 +59,19 @@ section.backImg {
 }
 
 .twoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .sweet {
   margin-right: 50px;
   max-width: 338px;
 }
+
 .sweet img {
   width: 338px;
 }
@@ -68,6 +79,7 @@ section.backImg {
 .sweet_title {
   background-color: #be0f34;
 }
+
 .sweet_title h2 {
   font-family: sans-serif;
   font-size: 21.6px;
@@ -75,6 +87,7 @@ section.backImg {
   text-align: center;
   color: #ffffff;
 }
+
 .sweet_title p {
   text-align: center;
   font-size: 18px;
@@ -88,6 +101,7 @@ section.backImg {
 .gifts {
   max-width: 338px;
 }
+
 .gifts img {
   width: 338px;
 }
@@ -95,6 +109,7 @@ section.backImg {
 .gifts_title {
   background-color: #be0f34;
 }
+
 .gifts_title h2 {
   font-family: sans-serif;
   font-size: 21.6px;
@@ -102,6 +117,7 @@ section.backImg {
   text-align: center;
   color: #ffffff;
 }
+
 .gifts_title p {
   text-align: center;
   font-size: 18px;
@@ -112,33 +128,47 @@ section.backImg {
   color: #ffffff;
 }
 
-.social { background-color: #be0f34;
-padding: 20px;
-max-width: 850px;
-margin: auto;}
+.button {
+  margin: auto;
+  margin-top: 17px;
+  width: 172px;
+  border: 6px solid #be0f34;
+  border-radius: 17px;
+  text-align: center;
+  padding: 12px 20px;
+  color: #be0f34;
+  font-size: 25px;
+}
 
-h3 {padding-bottom: 19px;
-text-align: center;
-color: #ffffff;
-font-family: sans-serif;
-font-size: 14.4px;
-line-height: 25.5px;}
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
 
-a {
-padding-right: 16px;}
+.social {
+  margin: auto;
+  background-color: #be0f34;
+}
+
+.social h3 {
+  padding: 23px 0 20px 0;
+}
 
 .link-social {
-display: flex;
-justify-content: center;}
+  padding-bottom: 26px;
+}
 
-.link-social img {height: 46px;
-width: 46px;}
+.link-social a {
+  padding-left: 13px;
+}
 
-.underFoot {background-color: #ffffff;
-max-width: 850px;
-margin: auto;
-padding: 21px 0;}
+.underFoot {
+  margin: auto;
+  text-align: center;
+}
 
-.underFoot p { font-family: sans-serif;
-font-size: 9.36px;
-text-align: center;}
+.underFoot p {
+  padding: 20px 0;
+  width: 344px;
+}
+/*# sourceMappingURL=style.css.map */

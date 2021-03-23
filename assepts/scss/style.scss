@@ -10,7 +10,7 @@ section {max-width: 850px;
 margin: auto;
 
 
-&.backImg {background-image: url(/img/PM-Holiday-Image1.jpg);
+&.backImg {background-image: url("/assepts/img/PM-Holiday-Image1.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 display: flex;}}
@@ -87,3 +87,39 @@ h2 { font-family: $text;
    margin: auto;
    color: $textColor;}}
  
+   .button {
+      margin: auto;
+      margin-top: 17px;
+      width: 172px;
+      border: 6px solid $color;
+      border-radius: 17px;
+      text-align: center;
+      padding: 12px 20px;
+      color: $color;
+      font-size: 25px;
+   }
+
+   footer {
+   margin-top: 40px; 
+   text-align: center;  
+   }
+
+   .social {
+      margin: auto;
+      background-color: $color;
+   
+   & h3 {padding: 23px 0 20px 0;}
+   }
+
+   .link-social{
+      padding-bottom: 26px;
+   & a { padding-left: 13px;}
+   }
+
+   .underFoot {
+   margin: auto;
+   text-align: center;
+     
+   & p { padding: 20px 0;
+   width: 344px;}
+   }
