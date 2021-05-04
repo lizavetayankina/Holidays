@@ -6,7 +6,7 @@ $text: sans-serif;
 $color: #be0f34;
 $textColor: #ffffff;
 
-section {max-width: 850px;
+section {width: 850px;
 margin: auto;
 
 
@@ -39,7 +39,7 @@ padding: 50px 85px;}}
 
 .recip_title { font-size: 21.6px;
 padding: 50px 0;
-width: 633px;
+max-width: 633px;
 text-align: center;
 margin:auto}}
 
@@ -48,7 +48,7 @@ justify-content: center;}
 
 .sweet{
 margin-right: 50px;
-max-width: 338px;
+width: 338px;
 & img {width: 338px;}}
 
 .sweet_title{ background-color: $color;
@@ -68,7 +68,7 @@ margin: auto;
 color: $textColor;}}
 
 
-.gifts{ max-width: 338px;
+.gifts{ width: 338px;
 & img {width: 338px;}}
 
 .gifts_title{ background-color: $color;
@@ -99,38 +99,96 @@ font: 25px $text;
 padding: 13px;
 }
 
-   footer {
-   margin-top: 40px; 
-   text-align: center;  
-   }
+footer {
+margin-top: 40px; 
+text-align: center;  
+}
 
-   .social {width: 850px;
-   margin: auto;
-   background-color: $color;
+.social {width: 850px;
+margin: auto;
+background-color: $color;
    
-   & h3 {padding: 23px 0 20px 0;}
-   color: $textColor;
+& h3 {padding: 23px 0 20px 0;}
+color: $textColor;
 font: 20px $text;}
 
-   .link-social{
-   padding-bottom: 26px;
-   & a { padding-left: 13px;}
-   }
+.link-social{
+padding-bottom: 26px;
+& a { padding-left: 13px;}
+}
 
-   .underFoot {width: 850px;
-   margin: auto;
-   margin-bottom: 27px;
+.underFoot {width: 850px;
+margin: auto;
+margin-bottom: 27px;
  
      
-   & p { padding: 20px 0;
-   width: 374px;
-   margin: auto;
-   font: 13px $text;
-   color: #000;}
+& p { padding: 20px 0;
+width: 374px;
+margin: auto;
+font: 13px $text;
+color: #000;}
 
-   & span {
-   font: 15px $text;
-   text-decoration: underline;
-   color: #000;
-   }
-   }
+& span {
+font: 15px $text;
+text-decoration: underline;
+color: #000;
+}
+}
+
+@media  (min-width: 768px) and (max-width: 991px)  {
+   section {
+      width: 100%;
+      margin: auto;
+&.backImg {
+   display: flex;
+   width: 768px;
+}}
+}
+
+@media (min-width: 639px) and (max-width: 768px) {
+section {
+    width: 100%;
+}
+.twoBlock {
+text-align: center;
+}
+}
+
+@media(min-width: 320px) and (max-width: 480px) {
+ section { 
+    width: 100%;
+    margin: auto;
+&.backImg {
+   background-size: cover;
+   display: flex;
+   max-width: 480px;
+}
+}
+.recipe { 
+   width: 100%;
+}
+.recip_title {
+   width: 320px;
+   margin: auto;
+}
+.twoBlock { 
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+}
+.sweet {
+   margin:auto;
+   padding-bottom: 50px;
+}
+.gifts {
+   margin: auto;
+}
+.social {
+   width: 100%;
+   margin: auto;
+}
+.underFoot {
+   width: 100%;
+   margin: auto;
+ }
+}

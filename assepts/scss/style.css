@@ -6,7 +6,7 @@
 }
 
 section {
-  max-width: 850px;
+  width: 850px;
   margin: auto;
 }
 
@@ -53,7 +53,7 @@ section.backImg {
 .recipe .recip_title {
   font-size: 21.6px;
   padding: 50px 0;
-  width: 633px;
+  max-width: 633px;
   text-align: center;
   margin: auto;
 }
@@ -69,7 +69,7 @@ section.backImg {
 
 .sweet {
   margin-right: 50px;
-  max-width: 338px;
+  width: 338px;
 }
 
 .sweet img {
@@ -99,7 +99,7 @@ section.backImg {
 }
 
 .gifts {
-  max-width: 338px;
+  width: 338px;
 }
 
 .gifts img {
@@ -183,5 +183,73 @@ footer {
   font: 15px sans-serif;
   text-decoration: underline;
   color: #000;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    width: 100%;
+    margin: auto;
+  }
+  section.backImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 768px;
+  }
+}
+
+@media (min-width: 639px) and (max-width: 768px) {
+  section {
+    width: 100%;
+  }
+  .twoBlock {
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  section {
+    width: 100%;
+    margin: auto;
+  }
+  section.backImg {
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 480px;
+  }
+  .recipe {
+    width: 100%;
+  }
+  .recip_title {
+    width: 320px;
+    margin: auto;
+  }
+  .twoBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  .sweet {
+    margin: auto;
+    padding-bottom: 50px;
+  }
+  .gifts {
+    margin: auto;
+  }
+  .social {
+    width: 100%;
+    margin: auto;
+  }
+  .underFoot {
+    width: 100%;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
